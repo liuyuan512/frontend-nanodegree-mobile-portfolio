@@ -1,0 +1,36 @@
+{
+  "name": "cameron-pittman",
+  "version": "1.0.0",
+  "description": "this is a minified project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuyuan512/frontend-nanodegree-mobile-portfolio.git"
+  },
+  "keywords": [
+    "0909"
+  ],
+  "author": "aaron-liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liuyuan512/frontend-nanodegree-mobile-portfolio/issues"
+  },
+  "homepage": "https://github.com/liuyuan512/frontend-nanodegree-mobile-portfolio#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-htmlmin": "^2.0.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "gulp-imagemin": "^3.1.1"
+  },
+  "dependencies": {
+    "imagemin": "^5.2.2",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-mozjpeg": "^6.0.0"
+  }
+}
