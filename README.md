@@ -20,7 +20,9 @@ I make 5 changes in this part.
 
 ####Part 2: Optimize Frames per Second in pizza.html
 
-I make 2 changes in this part.
+I make 4 changes in this part.
 
 1. I change the function updatePositions() in line 507, which is putting the layout "document.body.scrollTop / 1250" out of the loop cause they can trigger the layout.
 2. I change the function changePizzaSizes(size) in line 458. I make the "var dx" and var "newwidth" out of the loop cause they can trigger the layout.
+3. I replace all the document.querySelector to document.getElementById / document.getElementByClassName.
+4. I dynamically calculate the number of pizzas.
