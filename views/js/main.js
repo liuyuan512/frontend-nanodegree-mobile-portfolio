@@ -552,11 +552,12 @@ window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
-  var n = (s/window.screen.height)*cols;
+  var n = (window.screen.height/s)*cols;
 // I move this DOM call outside the for loop. And dynamicly caculate the  number of pizzas.
-  var elem = document.createElement('img');
+
   var movingPizzas = document.getElementById("movingPizzas1");
   for (var i = 0; i < n; i++) {
+    var elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
     elem.style.height = "100px";
